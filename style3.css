@@ -1,0 +1,14 @@
+div p {
+    background-color: yellow;
+  }
+  .one> p {
+    background-color: rgb(0, 255, 110);
+  }
+  .two + p
+  {
+      font: bolder;
+      color: blue;
+  }
+  .three ~ p {
+    background-color: red;
+  }

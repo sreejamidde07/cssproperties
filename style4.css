@@ -1,0 +1,23 @@
+body {
+    counter-reset: section;
+    background-color: bisque;
+  }
+  
+  h2::before {
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+  }
+  
+h3 {
+    counter-reset: subsection;
+  }
+  
+  h3::before {
+    counter-increment: section;
+    content: "Section " counter(section) ". ";
+  }
+  
+  h4::before {
+    counter-increment: subsection;
+    content: counter(section) "." counter(subsection) " ";
+  }

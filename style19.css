@@ -1,0 +1,12 @@
+#demo {color: blue;}
+.test {color: green;} 
+p {color: red;} 
+td{
+    text-align: center;
+}
+table,td,th{
+    border: 2px solid;
+}
+body{
+    background-color: bisque;
+}

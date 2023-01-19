@@ -1,0 +1,27 @@
+a[target] {
+    background-color: yellow;
+  }
+  div a[target=_blank] {
+    background-color: red;
+  }
+  [class|=top] {
+    background: green;
+  }
+  .one [class$="test"] {
+    background: blue;
+  }
+  [class*="te"] {
+    background: palevioletred;
+  }
+  input[type=text] {
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: yellow;
+  }
+  
+  input[type=button] {
+    width: 120px;
+    margin-left: 35px;
+    display: block;
+  }

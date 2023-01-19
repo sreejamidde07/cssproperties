@@ -1,0 +1,64 @@
+body {
+    color: rgb(96, 96, 253);
+  }
+  
+  h1 {
+    color: rgb(108, 184, 108);
+    background-color: rgb(119, 88, 51);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  p{
+    color: rgb(254, 145, 12);
+    text-transform: lowercase;
+    text-indent: 50px;
+    line-height: 0.8;
+  }
+  .align h1
+    {
+        text-align: center;
+        background-color: lightpink;
+        text-decoration: overline;
+        text-decoration-color: red;
+        text-decoration-style: double;
+        text-transform: capitalize;
+    }
+      
+    h2
+    {
+        text-align: left;
+        text-align-last:left;
+        text-decoration: line-through;
+        text-decoration-color: rgb(66, 236, 54);
+        text-decoration-style:dotted;
+        text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+    }
+      
+    h3 
+    {
+        text-align: right;
+        text-align-last:right;
+        text-decoration: underline;
+        text-decoration-color: green;
+        text-decoration-style: dashed;
+        text-decoration-thickness: 5px;
+    }
+.align p{
+    color: blueviolet;
+    text-align-last: center;
+    text-decoration: overline underline;
+    text-decoration-color: goldenrod;
+    text-decoration-style:solid;
+    text-decoration-thickness: auto;
+} 
+.exe1 
+{
+    direction: rtl;
+  unicode-bidi: bidi-override;
+  word-spacing: 10px;
+} 
+.active{
+  background-color: #06fea3;
+} 
+
+  

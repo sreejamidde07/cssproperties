@@ -1,0 +1,83 @@
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+    color:aqua;
+    font-style: italic;
+  }
+  
+  .p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    font-style: oblique;
+
+  }
+  
+  .p3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:brown;
+    font-style: normal;
+  }
+  li{
+    font-size: medium;
+
+    
+  }
+  h3{
+    font-family: arial,sans-serif;
+    font-weight: bold;
+  }
+  .tahoma{
+    font-family: tahoma,sans-serif ;
+    font-weight: bolder;
+  }
+  .ms
+  {
+    font-family: "Trebuchet MS",sans-serif;
+    font-weight: lighter;
+    
+  }
+  .geo{
+    font-family: Georgia ,serif;
+    font-weight: normal;
+    font: italic small-caps bold 12px/30px Georgia, serif;
+  }
+  .gara{
+    font-family: garamond,serif;
+    font-variant: normal;
+  }
+  .times{
+    font-family: 'Times New Roman', serif;
+    font-variant: small-caps;
+    font-size: 90%;
+  }
+  .new{
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+  }
+  .brush{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5em;
+  }
+  .center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+  .center1{
+  text-align: center;
+  border: 3px solid green;
+  }
+  .right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+  .center2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid green; 
+  }

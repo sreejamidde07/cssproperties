@@ -1,0 +1,28 @@
+div {
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+  .pad {
+    border: 1px solid aliceblue;
+    padding: 30px 60px 80px 100px;
+    background-color: orange;
+  }
+  .pad1 {
+    border: 3px solid beige;
+    padding: 30px 60px 80px;
+    background-color: darkolivegreen;
+  }
+  .pad2 {
+    border: 3px solid blanchedalmond;
+    padding: 30px 60px;
+    background-color: gray;
+  }
+  .pad3 {
+    border: 3px solid burlywood;
+    padding: 20px;
+    background-color: mediumseagreen;
+  }

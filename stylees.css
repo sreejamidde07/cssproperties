@@ -1,0 +1,18 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+button{
+    color: aqua;
+    background-color: crimson;
+    border-color: rgb(0, 255, 81);
+}
+button:hover{
+    background-color: coral;
+}
+body{
+    background-color: blanchedalmond;
+}
+h1{
+    text-align: center;
+}
